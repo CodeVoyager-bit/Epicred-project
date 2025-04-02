@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import jobhuntly from '../company-logos/jobhuntly1.png';
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -12,10 +12,11 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-content">
           <a href="/" className="logo">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="16" cy="16" r="16" fill="#4640DE"/>
               <path d="M16.5 8L23 12V20L16.5 24L10 20V12L16.5 8Z" fill="white"/>
-            </svg>
+            </svg> */}
+            <img src={jobhuntly} style={{backgroundColor: 'white', borderRadius: '10px'}} alt="logo" />
             JobHuntly
           </a>
 

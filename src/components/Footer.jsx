@@ -1,3 +1,4 @@
+import vodafone from '../company-logos/jobhuntly1.png';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -5,10 +6,11 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <div className="logo">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              {/* <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <circle cx="16" cy="16" r="16" fill="#4640DE"/>
                 <path d="M16.5 8L23 12V20L16.5 24L10 20V12L16.5 8Z" fill="white"/>
-              </svg>
+              </svg> */}
+              <img style={{backgroundColor: '#25324B', borderRadius: '10px'}} src={vodafone} alt="logo" />
               <span>JobHuntly</span>
             </div>
             <p>Great platform for the job seeker that passionate about startups. Find your dream job easier.</p>
